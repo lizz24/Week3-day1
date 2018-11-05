@@ -14,3 +14,7 @@ In this case we entered 1996 and our result is youth meaning we fall between 18 
 
 ![console2](https://user-images.githubusercontent.com/39797444/48003941-e7440d80-e120-11e8-9f2e-856ce5cf893f.jpg)
 
+# Python program where dictionary where the keys are numbers between 1 and 15 and the values are squares of the keys
+
+![dict](https://user-images.githubusercontent.com/39797444/48004560-769df080-e122-11e8-8fc2-820651d408b7.jpg)
+
