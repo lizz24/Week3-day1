@@ -1,10 +1,10 @@
 class BankAccount(object):
    
 #the initial balance is zero by default
-    def __init__(self) -> None:
+    def __init__(self):
         self._balance = None
 
-    def error_if_closed(self) -> None:       
+    def error_if_closed(self):       
 #Raise a ValueError if the account is already closed.
         
         if self._balance is None:
@@ -16,13 +16,13 @@ class BankAccount(object):
         self.error_if_closed()
         return self._balance
 
-    def open(self) -> None:
+    def open(self):
         
 #Open the account and initialize the balance.
         
         self._balance = 0
 
-    def deposit(self, amount: int) -> None:
+    def deposit(self, amount: int):
 #Deposit amount into account. Raises ValueError on negative amounts.
         
         self.error_if_closed()
